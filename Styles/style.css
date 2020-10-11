@@ -7,6 +7,7 @@ body {
     width: 100%;
     height: 20vh;
     background-color: #000000;
+    padding-top: 4vh;
 }
 
 .logo {
@@ -32,13 +33,12 @@ ul.menu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
-    width: 30%;
+    width: 20%;
     margin: 0 auto 0;
 }
 
 li.menu {
-    display: inline-block;
+    display: flex;
     text-align: center;
     margin: 0 auto 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -255,11 +255,27 @@ button {
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .25);
     background-position: center;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#story h3, #story p {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #story h3 {
-    margin-top: 0;
-    min-height: 50vh;
+    font: normal normal normal 40px/1.35em barlow-medium,barlow,sans-serif;
+    margin-bottom: 0;
+}
+
+#story p {
+    font: normal normal normal 15px/1.875em avenir-lt-w01_35-light1475496,sans-serif;
 }
 
 #footer {
