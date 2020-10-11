@@ -66,6 +66,7 @@ iframe {
 #main {
     background-color: #191919;
     width: 100%;
+    padding-top: 10vh;
 }
 
 #about {
@@ -255,7 +256,7 @@ button {
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .25);
     background-position: center;
-    min-height: 50vh;
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
 
@@ -280,4 +281,18 @@ button {
 
 #footer {
     min-height: 20vh;
+}
+
+#sub_contact, #credit {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto 0;
+}
+
+#sub_contact {
+    margin-top: 5vh;
+}
+
+#credit {
+    margin-top: 10vh;
 }
